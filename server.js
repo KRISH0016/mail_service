@@ -20,7 +20,7 @@ app.post("/sendMail", (req, res) => {
   const mailOptions = {
     from: `'${process.env.FROM_NAME}' <${process.env.APP_MAIL}>`,
     to: to_mail,
-    subject: "Payment Verification for TECHUTSAV2024",
+    subject: "Payment Verification for TELETECH2024",
     text: `Hello ${to_name},\n${main_message}`,
   };
 
